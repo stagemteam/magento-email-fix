@@ -1,0 +1,18 @@
+{
+  "name": "stagem/magento-email-fix",
+  "type": "magento-module",
+  "license": "MIT Licence",
+  "description": "Magento 1 after upgrade has some problem with sending mails",
+  "authors": [
+    {
+      "name": "Vlad Kozak",
+      "email": "vk@stagem.com.ua"
+    }
+  ],
+  "extra": {
+    "map": [
+      ["app/code/local/Stagem/Sales/", "app/code/local/Stagem/Sales/"],
+      ["app/etc/modules/Stagem_Sales.xml", "app/etc/modules/Stagem_Sales.xml"]
+    ]
+  }
+}
