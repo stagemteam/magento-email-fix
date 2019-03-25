@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Stagem_Sales>
+            <version>1.0.0</version>
+        </Stagem_Sales>
+    </modules>
+    <global>
+        <models>
+            <stagem_sales>
+                <class>Stagem_Sales_Model</class>
+            </stagem_sales>
+            <sales>
+                <rewrite>
+                    <order>Stagem_Sales_Model_Order</order>
+                </rewrite>
+            </sales>
+        </models>
+    </global>
+
+</config>
